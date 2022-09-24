@@ -1,0 +1,10 @@
+.header {
+    height: 100px;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.header h1 {
+    margin: 10px;
+    font-size: 60px;
+}
