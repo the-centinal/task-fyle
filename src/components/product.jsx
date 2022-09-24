@@ -21,9 +21,7 @@ function Product() {
             setProduct(await response.json());
             console.log(product);
             setLoading(false)
-            return () => {
-                componentMounted = false
-            }
+           
         }
         getProducts();
 
